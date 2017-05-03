@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=2">
+    <meta name="description" content="Free Bootstrap Theme by BootstrapMade.com">
+    <meta name="keywords" content="free website templates, free bootstrap themes, free template, free bootstrap, free website template">
+    
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway|Candal">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+   
+  </head>
+  <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+  	<!--banner-->
+	<section id="banner" class="banner">
+		<div class="bg-color">
+			<nav class="navbar navbar-default navbar-fixed-top">
+			  <div class="container">
+			  	<div class="col-md-12">
+				    <div class="navbar-header">
+				      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				      </button>
+				      <a class="navbar-brand" href="#"><img src="img/download.png" class="img-responsive" style="width: 140px; margin-top: -16px;"></a>
+				    </div>
+				    <div class="collapse navbar-collapse navbar-right" id="myNavbar">
+				      <ul class="nav navbar-nav">
+				        <li class="active"><a href="#banner">Home</a></li>
+				        <li class=""><a href="#estimation">Estimation</a></li>
+				      </ul>
+				    </div>
+				</div>
+			  </div>
+			</nav>
+			<div class="container">
+				<div class="row">
+					<div class="banner-info">
+						<div class="banner-logo text-center">
+							<img src="img/ph.png" class="img-responsive">
+						</div>
+						<div class="banner-text text-center">
+							<h1 class="white">Healthcare at your desk!!</h1>
+							<p>Estimate Pre RBC's required before operation through our model</p>
+							<a href="#estimation" class="btn btn-appoint">Make an Estimation.</a>
+						</div>
+						<div class="overlay-detail text-center">
+			               <a href="#estimation"><i class="fa fa-angle-down"></i></a>
+			             </div>		
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--/ banner-->
+
+	<!--estimation-->
+	<section id="estimation" class="section-padding">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-sm-8 marb20">
+					<div class="estimation-info">
+							<h3 class="cnt-ttl">Let's do an Estimation</h3>
+                            <div id="errormessage"></div>
+							<form action="" method="post" role="form" class="estimationForm">
+								<!--Age-->
+							    <div class="form-group">
+                                    <input type="text" name="age" class="form-control br-radius-zero" id="Age" placeholder="Age" data-rule="minlen:4" data-msg="Enter your age"/>
+                                    <div class="validation"></div>
+                                </div>
+
+                                <!--Procedure-->
+                                <div class="form-group">
+                                    <input type="text" class="form-control br-radius-zero" name="procedure" id="Procedure" placeholder="Procedure" data-rule="minlen:16" data-msg="Enter Procedure" />
+                                    <div class="validation"></div>
+                                </div>
+
+                                <!--Speciality-->
+                                <div class="form-group">
+                                    <input type="text" class="form-control br-radius-zero" name="speciality" id="Speciality" placeholder="Speciality" data-rule="minlen:16" data-msg="Enter Speciality" />
+                                    <div class="validation"></div>
+                                </div>
+
+                                <!--Speciality-->
+                                <div class="form-group">
+                                    <input type="text" class="form-control br-radius-zero" name="inr" id="Pre-op INR" placeholder="Pre-op INR" data-rule="minlen:16" data-msg="Enter INR" />
+                                    <div class="validation"></div>
+                                </div>
+
+                                <!--Pre op Platelets-->
+                                <div class="form-group">
+                                    <input type="text" class="form-control br-radius-zero" name="platelets" id="Pre-op Platelets" placeholder="Pre-op Platelets" data-rule="minlen:16" data-msg="Enter pre operation Platelets count" />
+                                    <div class="validation"></div>
+                                </div>
+
+                                 <!--Results before surgery-->
+                                <div class="form-group">
+                                    <input type="text" class="form-control br-radius-zero" name="Results before Surgery" id="Results before Surgery" placeholder="Results before Surgery" data-rule="minlen:16" data-msg="Enter Heamoglobin count before Surgery" />
+                                    <div class="validation"></div>
+                                </div>
+
+								<div class="form-action">
+									<button type="submit" class="btn btn-form">Submit</button>
+								</div>
+							</form>
+
+							<h3 class="cnt-ttl">Results</h3>
+
+						    <!--PRE RBC Count-->
+							<div class="form-group">
+                                <input type="text" name="PRE_RBC_Count" class="form-control br-radius-zero" id="PRE_RBC_Count" placeholder="PRE_RBC_Count"/>
+                            </div>
+
+                            <!--Confidence-->
+                            <div class="form-group">
+                                <input type="text" class="form-control br-radius-zero" name="Confidence" id="Confidence" placeholder="Confidence"/>
+                            </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--/ contact-->
+	
+	<!--footer-->
+	<footer id="footer">
+		<div class="footer-line">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 text-center">
+						© Copyright Phoenix Lens. All Rights Reserved
+                        <div class="credits">
+                            Designed by Phoenix Lens
+                        </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!--/ footer-->
+    
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="estimationform/estimationform.js"></script>
+    
+  </body>
+</html>
